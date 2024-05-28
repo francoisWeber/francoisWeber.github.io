@@ -1,6 +1,7 @@
 layout: page
 title: "Pourquoi un gestionnaire de mot de passe ?"
-permalink: /pourquoi-un-gestionnaire-de-mot-de-passe
+permalink: /{{ title | slugify }}
+collection: articles
 ---
 
 Une explication non technique et aussi courte que possible sur les risques de hacking d'email pour justifier le recours à un gestionnaire de mots de passe au quotidien. Les gestionnaires sont recommandés par le gouvernements et sont par exemple expliqués [dans cet article de FranceNum](https://www.francenum.gouv.fr/guides-et-conseils/protection-contre-les-risques/cybersecurite/pourquoi-et-comment-utiliser-un)
